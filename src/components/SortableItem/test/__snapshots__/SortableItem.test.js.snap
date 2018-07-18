@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortableItem component snapshot snapshot 1`] = `
+<Item
+  actions={
+    Array [
+      <Icon
+        onClick={[Function]}
+        type="close"
+      />,
+    ]
+  }
+>
+  <div>
+    Это метка1
+  </div>
+</Item>
+`;

@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPlacemark component snapshots with error 1`] = `
+<Form(FormPlacemark)>
+  <FormPlacemark
+    form={
+      Object {
+        "getFieldDecorator": [Function],
+        "getFieldError": [Function],
+        "getFieldInstance": [Function],
+        "getFieldProps": [Function],
+        "getFieldValue": [Function],
+        "getFieldsError": [Function],
+        "getFieldsValue": [Function],
+        "isFieldTouched": [Function],
+        "isFieldValidating": [Function],
+        "isFieldsTouched": [Function],
+        "isFieldsValidating": [Function],
+        "isSubmitting": [Function],
+        "resetFields": [Function],
+        "setFields": [Function],
+        "setFieldsInitialValue": [Function],
+        "setFieldsValue": [Function],
+        "submit": [Function],
+        "validateFields": [Function],
+        "validateFieldsAndScroll": [Function],
+      }
+    }
+  >
+    <Form
+      hideRequiredMark={false}
+      layout="horizontal"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <form
+        className="ant-form ant-form-horizontal"
+        onSubmit={[Function]}
+      >
+        <FormItem
+          colon={true}
+          hasFeedback={false}
+          prefixCls="ant-form"
+          style={
+            Object {
+              "margin": 0,
+            }
+          }
+        >
+          <Row
+            className="ant-form-item ant-form-item-with-help"
+            gutter={0}
+            style={
+              Object {
+                "margin": 0,
+              }
+            }
+          >
+            <div
+              className="ant-row ant-form-item ant-form-item-with-help"
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              <Col
+                className="ant-form-item-control-wrapper"
+                key=".$wrapper"
+              >
+                <div
+                  className="ant-form-item-control-wrapper"
+                >
+                  <div
+                    className="ant-form-item-control has-error"
+                  >
+                    <span
+                      className="ant-form-item-children"
+                    >
+                      <Input
+                        data-__field={
+                          Object {
+                            "dirty": false,
+                            "errors": Array [
+                              Object {
+                                "field": "new_mark",
+                                "message": "Введите больше 2ух, но не более 30и символов",
+                              },
+                            ],
+                            "name": "new_mark",
+                            "touched": true,
+                            "validating": false,
+                            "value": "1",
+                          }
+                        }
+                        data-__meta={
+                          Object {
+                            "name": "new_mark",
+                            "originalProps": Object {
+                              "disabled": false,
+                              "placeholder": "Новая точка маршрута",
+                              "prefixCls": "ant-input",
+                              "type": "text",
+                            },
+                            "ref": null,
+                            "rules": Array [
+                              Object {
+                                "max": 30,
+                                "message": "Введите больше 2ух, но не более 30и символов",
+                                "min": 2,
+                                "whitespace": true,
+                              },
+                            ],
+                            "trigger": "onChange",
+                            "validate": Array [
+                              Object {
+                                "rules": Array [
+                                  Object {
+                                    "max": 30,
+                                    "message": "Введите больше 2ух, но не более 30и символов",
+                                    "min": 2,
+                                    "whitespace": true,
+                                  },
+                                ],
+                                "trigger": Array [
+                                  "onChange",
+                                ],
+                              },
+                            ],
+                            "valuePropName": "value",
+                          }
+                        }
+                        disabled={false}
+                        id="new_mark"
+                        onChange={[Function]}
+                        placeholder="Новая точка маршрута"
+                        prefixCls="ant-input"
+                        type="text"
+                        value="1"
+                      >
+                        <input
+                          className="ant-input"
+                          data-__field={
+                            Object {
+                              "dirty": false,
+                              "errors": Array [
+                                Object {
+                                  "field": "new_mark",
+                                  "message": "Введите больше 2ух, но не более 30и символов",
+                                },
+                              ],
+                              "name": "new_mark",
+                              "touched": true,
+                              "validating": false,
+                              "value": "1",
+                            }
+                          }
+                          data-__meta={
+                            Object {
+                              "name": "new_mark",
+                              "originalProps": Object {
+                                "disabled": false,
+                                "placeholder": "Новая точка маршрута",
+                                "prefixCls": "ant-input",
+                                "type": "text",
+                              },
+                              "ref": null,
+                              "rules": Array [
+                                Object {
+                                  "max": 30,
+                                  "message": "Введите больше 2ух, но не более 30и символов",
+                                  "min": 2,
+                                  "whitespace": true,
+                                },
+                              ],
+                              "trigger": "onChange",
+                              "validate": Array [
+                                Object {
+                                  "rules": Array [
+                                    Object {
+                                      "max": 30,
+                                      "message": "Введите больше 2ух, но не более 30и символов",
+                                      "min": 2,
+                                      "whitespace": true,
+                                    },
+                                  ],
+                                  "trigger": Array [
+                                    "onChange",
+                                  ],
+                                },
+                              ],
+                              "valuePropName": "value",
+                            }
+                          }
+                          disabled={false}
+                          id="new_mark"
+                          onChange={[Function]}
+                          onKeyDown={[Function]}
+                          placeholder="Новая точка маршрута"
+                          type="text"
+                          value="1"
+                        />
+                      </Input>
+                    </span>
+                    <Animate
+                      animation={Object {}}
+                      component=""
+                      componentProps={Object {}}
+                      key="help"
+                      onAppear={[Function]}
+                      onEnd={[Function]}
+                      onEnter={[Function]}
+                      onLeave={[Function]}
+                      transitionAppear={true}
+                      transitionEnter={true}
+                      transitionLeave={true}
+                      transitionName="show-help"
+                    >
+                      <AnimateChild
+                        animation={Object {}}
+                        key="help"
+                        transitionAppear={true}
+                        transitionEnter={true}
+                        transitionLeave={true}
+                        transitionName="show-help"
+                      >
+                        <div
+                          className="ant-form-explain"
+                          key="help"
+                        >
+                          Введите больше 2ух, но не более 30и символов
+                        </div>
+                      </AnimateChild>
+                    </Animate>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </FormItem>
+      </form>
+    </Form>
+  </FormPlacemark>
+</Form(FormPlacemark)>
+`;
+
+exports[`FormPlacemark component snapshots without error 1`] = `
+<Form(FormPlacemark)>
+  <FormPlacemark
+    form={
+      Object {
+        "getFieldDecorator": [Function],
+        "getFieldError": [Function],
+        "getFieldInstance": [Function],
+        "getFieldProps": [Function],
+        "getFieldValue": [Function],
+        "getFieldsError": [Function],
+        "getFieldsValue": [Function],
+        "isFieldTouched": [Function],
+        "isFieldValidating": [Function],
+        "isFieldsTouched": [Function],
+        "isFieldsValidating": [Function],
+        "isSubmitting": [Function],
+        "resetFields": [Function],
+        "setFields": [Function],
+        "setFieldsInitialValue": [Function],
+        "setFieldsValue": [Function],
+        "submit": [Function],
+        "validateFields": [Function],
+        "validateFieldsAndScroll": [Function],
+      }
+    }
+  >
+    <Form
+      hideRequiredMark={false}
+      layout="horizontal"
+      onSubmit={[Function]}
+      prefixCls="ant-form"
+    >
+      <form
+        className="ant-form ant-form-horizontal"
+        onSubmit={[Function]}
+      >
+        <FormItem
+          colon={true}
+          hasFeedback={false}
+          prefixCls="ant-form"
+          style={
+            Object {
+              "margin": 0,
+            }
+          }
+        >
+          <Row
+            className="ant-form-item"
+            gutter={0}
+            style={
+              Object {
+                "margin": 0,
+              }
+            }
+          >
+            <div
+              className="ant-row ant-form-item"
+              style={
+                Object {
+                  "margin": 0,
+                }
+              }
+            >
+              <Col
+                className="ant-form-item-control-wrapper"
+                key=".$wrapper"
+              >
+                <div
+                  className="ant-form-item-control-wrapper"
+                >
+                  <div
+                    className="ant-form-item-control has-success"
+                  >
+                    <span
+                      className="ant-form-item-children"
+                    >
+                      <Input
+                        data-__field={
+                          Object {
+                            "dirty": false,
+                            "errors": undefined,
+                            "name": "new_mark",
+                            "touched": true,
+                            "validating": false,
+                            "value": "133",
+                          }
+                        }
+                        data-__meta={
+                          Object {
+                            "name": "new_mark",
+                            "originalProps": Object {
+                              "disabled": false,
+                              "placeholder": "Новая точка маршрута",
+                              "prefixCls": "ant-input",
+                              "type": "text",
+                            },
+                            "ref": null,
+                            "rules": Array [
+                              Object {
+                                "max": 30,
+                                "message": "Введите больше 2ух, но не более 30и символов",
+                                "min": 2,
+                                "whitespace": true,
+                              },
+                            ],
+                            "trigger": "onChange",
+                            "validate": Array [
+                              Object {
+                                "rules": Array [
+                                  Object {
+                                    "max": 30,
+                                    "message": "Введите больше 2ух, но не более 30и символов",
+                                    "min": 2,
+                                    "whitespace": true,
+                                  },
+                                ],
+                                "trigger": Array [
+                                  "onChange",
+                                ],
+                              },
+                            ],
+                            "valuePropName": "value",
+                          }
+                        }
+                        disabled={false}
+                        id="new_mark"
+                        onChange={[Function]}
+                        placeholder="Новая точка маршрута"
+                        prefixCls="ant-input"
+                        type="text"
+                        value="133"
+                      >
+                        <input
+                          className="ant-input"
+                          data-__field={
+                            Object {
+                              "dirty": false,
+                              "errors": undefined,
+                              "name": "new_mark",
+                              "touched": true,
+                              "validating": false,
+                              "value": "133",
+                            }
+                          }
+                          data-__meta={
+                            Object {
+                              "name": "new_mark",
+                              "originalProps": Object {
+                                "disabled": false,
+                                "placeholder": "Новая точка маршрута",
+                                "prefixCls": "ant-input",
+                                "type": "text",
+                              },
+                              "ref": null,
+                              "rules": Array [
+                                Object {
+                                  "max": 30,
+                                  "message": "Введите больше 2ух, но не более 30и символов",
+                                  "min": 2,
+                                  "whitespace": true,
+                                },
+                              ],
+                              "trigger": "onChange",
+                              "validate": Array [
+                                Object {
+                                  "rules": Array [
+                                    Object {
+                                      "max": 30,
+                                      "message": "Введите больше 2ух, но не более 30и символов",
+                                      "min": 2,
+                                      "whitespace": true,
+                                    },
+                                  ],
+                                  "trigger": Array [
+                                    "onChange",
+                                  ],
+                                },
+                              ],
+                              "valuePropName": "value",
+                            }
+                          }
+                          disabled={false}
+                          id="new_mark"
+                          onChange={[Function]}
+                          onKeyDown={[Function]}
+                          placeholder="Новая точка маршрута"
+                          type="text"
+                          value="133"
+                        />
+                      </Input>
+                    </span>
+                    <Animate
+                      animation={Object {}}
+                      component=""
+                      componentProps={Object {}}
+                      key="help"
+                      onAppear={[Function]}
+                      onEnd={[Function]}
+                      onEnter={[Function]}
+                      onLeave={[Function]}
+                      transitionAppear={true}
+                      transitionEnter={true}
+                      transitionLeave={true}
+                      transitionName="show-help"
+                    />
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </FormItem>
+      </form>
+    </Form>
+  </FormPlacemark>
+</Form(FormPlacemark)>
+`;

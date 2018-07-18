@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component  snapshot 1`] = `
+<Styled(div)>
+  <Styled(div)>
+    <Styled(div)>
+      <Connect(DraggableListPlacemark) />
+    </Styled(div)>
+    <Styled(div)>
+      <YandexMap />
+    </Styled(div)>
+  </Styled(div)>
+</Styled(div)>
+`;
