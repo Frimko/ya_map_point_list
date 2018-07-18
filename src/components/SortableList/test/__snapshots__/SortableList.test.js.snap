@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortableList component snapshot snapshot 1`] = `
+<List
+  bordered={true}
+  dataSource={
+    Array [
+      Object {
+        "id": "6565656543",
+        "name": "Это метка1",
+      },
+      Object {
+        "id": "6565656544",
+        "name": "Это метка2",
+      },
+    ]
+  }
+  header={
+    <Form(FormPlacemark)
+      submit={[MockFunction submit]}
+    />
+  }
+  loading={false}
+  pagination={false}
+  prefixCls="ant-list"
+  renderItem={[Function]}
+  size="small"
+  split={true}
+/>
+`;

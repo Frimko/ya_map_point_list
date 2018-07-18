@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YandexMap component snapshot snapshot 1`] = `
+<YMaps
+  enterprise={false}
+  onApiAvaliable={[Function]}
+  version="2.1"
+>
+  <Map
+    height="100%"
+    instanceRef={[Function]}
+    state={
+      Object {
+        "center": Array [
+          55.76,
+          37.64,
+        ],
+        "zoom": 10,
+      }
+    }
+    width="100%"
+  >
+    <Connect(Placemarks) />
+  </Map>
+</YMaps>
+`;
